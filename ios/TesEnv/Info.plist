@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>환경을연결하다</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>tesnaverlogin</string>
+			</array>
+		</dict>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>KAKAO_APP_KEY</key>
+	<string>fb25338545e95cdd0e8be8b1544610b4</string>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>kakaofb25338545e95cdd0e8be8b1544610b4</string>
+		<string>kakaolink</string>
+		<string>kakaokompassauth</string>
+		<string>naversearchapp</string>
+		<string>naversearchthirdlogin</string>
+	</array>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSExceptionDomains</key>
+		<dict>
+			<key>localhost</key>
+			<dict>
+				<key>NSExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+			</dict>
+		</dict>
+	</dict>
+	<key>NSAppleMusicUsageDescription</key>
+	<string>이용자가 매체에 접근하기 위해 필요합니다.</string>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>이용자가 블루투스 기능을 사용하기 위해 필요합니다.</string>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>이용자가 블루투스 기능을 사용하기 위해 필요합니다.</string>
+	<key>NSCalendarsUsageDescription</key>
+	<string>일정을 확인하기 위해 필요합니다.</string>
+	<key>NSCameraUsageDescription</key>
+	<string>카메라 기능으로 파일 첨부를 이용하기 위해서는 해당 권한을 승인해 주세요.</string>
+	<key>NSContactsUsageDescription</key>
+	<string>이용자에게 접근하기 위해 필요합니다.</string>
+	<key>NSFaceIDUsageDescription</key>
+	<string>이용자가 Face ID를 사용하기 위해 필요합니다.</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>이용자의 현재 위치를 파악하기 위해 권한을 승인해 주세요.</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>이용자의 현재 위치를 파악하기 위해 권한을 승인해 주세요.</string>
+	<key>NSLocationTemporaryUsageDescriptionDictionary</key>
+	<dict>
+		<key>YOUR-PURPOSE-KEY</key>
+		<string>YOUR TEXT</string>
+	</dict>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>이용자의 현재 위치를 파악하기 위해 권한을 승인해 주세요.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>이용자가 통화 또는 통화상에서 녹음 기능이 필요할 때 필요합니다.</string>
+	<key>NSMotionUsageDescription</key>
+	<string>이용자의 모션을 허용하기 위한 용도입니다.</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>파일 첨부를 이용하기 위해서는 해당 권한을 승인해 주세요.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>파일 첨부를 이용하기 위해서는 해당 권한을 승인해 주세요.</string>
+	<key>NSRemindersUsageDescription</key>
+	<string>이용자가 주의사항을 인지하게 하기 위한 용도입니다.</string>
+	<key>NSSiriUsageDescription</key>
+	<string>이용자가 Siri를 사용하기 위해 필요합니다.</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>이용자가 자동음성인식 기능을 사용하기 위해 필요합니다.</string>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>fetch</string>
+		<string>remote-notification</string>
+	</array>
+	<key>UIFileSharingEnabled</key>
+	<true/>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
+</dict>
+</plist>
